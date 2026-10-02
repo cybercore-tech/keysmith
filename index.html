@@ -314,6 +314,11 @@
   </div>
 </section>
 
+
+<!-- Cybercore Tech contact block: one shared source for every site (cybercore-tech.github.io/kit/contact.js + data/contact.json) -->
+<section class="cc-contact-band" aria-label="Contact Cybercore Tech" style="--panel:var(--void);--cyan:var(--steel);--pink:var(--ember);--acid:var(--steel);--orange:var(--ember);--purple:var(--ember);width:min(1120px,calc(100% - 2.5rem));margin:4.5rem auto 0;padding:2.25rem 0 1.75rem;border-top:1px solid var(--line,#32303e)">
+  <cybercore-contact repo="keysmith" bare><a href="mailto:dev@cybercoretech.net">dev@cybercoretech.net</a></cybercore-contact>
+</section>
 <footer>
   <div class="wrap foot-row">
     <div class="foot-brand">
@@ -357,3 +362,4 @@
     })
     .catch(() => { document.getElementById('dl-count').textContent = ''; });
 </script>
+<script type="module" src="https://cybercore-tech.github.io/kit/contact.js"></script>
